@@ -1,0 +1,29 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/util": "^10.0.0",
+    "@truffle/hdwallet-provider": "^2.0.16",
+    "crypto.js": "^3.3.4",
+    "elliptic": "^6.6.1",
+    "ethjs-util": "^0.1.6",
+    "ganache": "^6.4.5",
+    "hash": "^0.2.1",
+    "hash.js": "^1.1.7",
+    "mocha": "^10.8.2",
+    "nvm": "^0.0.4",
+    "solc": "^0.4.17",
+    "web3": "^4.9.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "description": ""
+}
