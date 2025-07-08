@@ -4,8 +4,8 @@ const { interface, bytecode } = require('./compile');
 
 //updated web3 and hdwallet-provider imports added for convenience
 const provider = new HDWalletProvider(
-  'fury nurse wash zebra rather tape roast soup middle carbon color bless', // Replace with your mnemonic
-  'https://sepolia.infura.io/v3/ff75cb6ec8144ccbbec138f2c5ee8bc6' // Replace with your Infura project ID
+  '', // Replace with your mnemonic
+  '' // Replace with your Infura project ID
 );
 // deploy code will go here
 const web3 = new Web3(provider); 
